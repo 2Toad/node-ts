@@ -22,7 +22,7 @@
     "Boilerplate"
   ],
   "author": "2Toad, LLC",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "dotenv": "^16.0.0",
     "joi": "^17.6.0",
