@@ -21,6 +21,7 @@
     "TypeScript",
     "Boilerplate"
   ],
+  "repository": "https://github.com/2toad/node-ts.git",
   "author": "2Toad, LLC",
   "license": "MIT",
   "dependencies": {
