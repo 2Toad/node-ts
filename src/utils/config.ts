@@ -7,7 +7,7 @@ dotenv.config({ path: path.join(path.resolve(), ".env") });
 // Define the schema for our configuration
 const schema = Joi.object()
   .keys({
-    NODE_ENV: Joi.string().valid("local", "development", "production").required(),
+    NODE_ENV: Joi.string().valid("local", "test", "development", "production").required(),
     HELLO_WORLD: Joi.string(),
     LOGGER_SLACK_WEBHOOK: Joi.string(),
     LOGGER_SLACK_LEVEL: Joi.string().default("error"),
