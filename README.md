@@ -39,6 +39,13 @@ Opinionated boilerplate for a Node.js TypeScript app
 
 >When file changes are detected, the app will automatically rebuild/restart
 
+#### Linting
+
+- Check ESLint rules: `npm run lint`
+- Fix ESLint errors: `npm run lint:fix`
+- Check code formatting: `npm run prettier`
+- Fix Prettier formatting errors: `npm run prettier:fix`
+
 ## Appendix
 
 ### Local Development
