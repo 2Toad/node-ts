@@ -12,13 +12,13 @@ const init = async () => {
     process.on(signal, async () => {
       logger.info(`${signal} received: shutting down...`);
 
-      // TODO: perform cleanup (e.g., close DB connection)
+      // TODO: perform cleanup prior to shutdown here (e.g., close DB connection)
 
       process.exit(0);
     });
   });
 
-  // TODO: initialization (e.g., create DB connection)
+  // TODO: initialize your app here (e.g., create DB connection)
 
   app.sayHello();
 };

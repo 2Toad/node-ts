@@ -1,7 +1,7 @@
 {
   "name": "node-ts",
   "version": "1.0.0",
-  "description": "",
+  "description": "Opinionated boilerplate for a Node.js TypeScript app",
   "main": "dist/index.js",
   "scripts": {
     "build": "npx tsc",
