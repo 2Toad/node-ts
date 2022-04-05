@@ -1,0 +1,28 @@
+{
+  "name": "node-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node dist/index.js",
+    "local": "cross-env NODE_ENV=local concurrently \"npx tsc --watch\" \"nodemon -q dist/index.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^17.0.23",
+    "concurrently": "^7.1.0",
+    "cross-env": "^7.0.3",
+    "nodemon": "^2.0.15",
+    "typescript": "^4.6.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "joi": "^17.6.0",
+    "winston": "^3.7.2",
+    "winston-slack-webhook-transport": "^2.1.0"
+  }
+}
