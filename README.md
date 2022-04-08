@@ -2,12 +2,7 @@
 
 Opinionated boilerplate for a Node.js TypeScript app
 
-## Features
-
-- ES Modules (ECMAScript)
-- No transpilers
-
-### Tech Stack
+## Tech Stack
 
 - Logging: [winston](https://github.com/winstonjs/winston) ([Slack integration](winston-slack-webhook-transport))
 - Config: [dotenv](https://github.com/motdotla/dotenv)
