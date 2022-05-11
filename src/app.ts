@@ -8,7 +8,7 @@ class App {
 
   sayHello(): string {
     logger.info("Hello World!");
-    logger.info(`HELLOW_WORLD = "${config.app.helloWorld}"`);
+    logger.info(`HELLO_WORLD = "${config.app.helloWorld}"`);
     return config.app.helloWorld;
   }
 }
