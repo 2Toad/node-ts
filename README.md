@@ -15,7 +15,7 @@ Opinionated boilerplate for a Node.js TypeScript app
 
 ### Prerequisites
 
-- Node ([v16.14.2](https://nodejs.org))
+- Node ([v16.15.0](https://nodejs.org))
 
 ### Source Code
 
