@@ -20,10 +20,10 @@ Opinionated boilerplate for a Node.js TypeScript app
 ### Source Code
 
 1. Clone the repo
-2. Set Git Hooks permissions: `sudo chmod -R +x .husky`
-3. Complete steps in: Appendix > Local Development > [Setup](#setup)
-4. Use required Node.js: `nvm use`
-5. Install dependencies: `npm i`
+2. Complete steps in: Appendix > Local Development > [Setup](#setup)
+3. Use required Node.js: `nvm use`
+4. Install dependencies: `npm i`
+5. Set Git Hooks permissions: `sudo chmod -R +x .husky`
 6. Create config: `cp .env-template .env`
 7. Change your .env config file values (see Appendix > [Config](#config))
 
