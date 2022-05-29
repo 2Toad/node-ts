@@ -7,7 +7,7 @@
     "clean": "npx rimraf dist",
     "build": "npm run clean && npx tsc",
     "start": "node dist/index.js",
-    "local": "concurrently \"npx tsc --watch\" \"nodemon -q dist/index.js\"",
+    "local": "npm run build && concurrently -p \"none\" \"npx tsc --watch\" \"nodemon -q dist/index.js\"",
     "test": "jest -i --colors --verbose --detectOpenHandles",
     "test:watch": "jest -i --watchAll",
     "test:coverage": "jest -i --coverage",
